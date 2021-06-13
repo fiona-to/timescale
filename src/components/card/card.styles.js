@@ -4,13 +4,14 @@ export const Styled = styled.div`
   .container {
     width: 230px;
     height: 350px;
+    margin: auto auto;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     border: 1px solid #e0e0e0;
-    border-radius: 4px;
+    border-radius: 10px;
     box-shadow: 3px 3px 3px #e0e0e0;
 
     position: relative;
@@ -18,6 +19,7 @@ export const Styled = styled.div`
     & .movie-poster {
       width: 230px;
       height: 300px;
+      border-radius: 10px 10px 0 0;
     }
   }
 
@@ -43,7 +45,7 @@ export const Styled = styled.div`
   @media only screen and (max-width: 330px) {
     .container {
       & .movie-poster {
-        width: 229px;
+        width: 228px;
       }
     }
   }

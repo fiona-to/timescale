@@ -18,9 +18,7 @@ const Card = ({ movieInfo }) => {
   return (
     <Styled>
       <div className="container">
-        <div>
-          <img src={imgUrl} alt={title} className="movie-poster" />
-        </div>
+        <img src={imgUrl} alt={title} className="movie-poster" />
         <div className="movie-rating">{vote_average}</div>
         <div className="movie-title">{title}</div>
       </div>

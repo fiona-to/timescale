@@ -40,7 +40,7 @@ export const Styled = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
-    margin: auto auto;
+    margin: 20px auto;
 
     & .grid-card {
       &:hover {
